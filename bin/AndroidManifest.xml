@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.boomerang"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+ 
+     
+    <uses-feature android:name="android.hardware.camera"></uses-feature>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+
+
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".BoomerangActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+           
+            android:name=".Home"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+           
+            android:name=".Login"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name=".Search"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name=".TagKeyword"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name=".News"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name=".Connection"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name=".ImageCapture"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name=".SDcardExplorer"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.global.GLogin"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.global.Fetching"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.global.Fetch"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.global.Filelist"
+            android:label="@string/app_name" >
+            
+        </activity>
+        
+        <activity
+            android:name="com.global.Ghome"
+            android:label="@string/app_name" >
+            
+        </activity>
+        
+         <activity
+            android:name="com.global.Upload"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.global.Download"
+            android:label="@string/app_name" >
+            
+        </activity>
+       
+        <activity
+            android:name="com.global.GimageCap"
+            android:label="@string/app_name" >
+            
+        </activity>
+        
+        <activity
+            android:name="com.global.FileExplorer"
+            android:label="@string/app_name" >
+            
+        </activity>
+         
+        <activity
+            android:name="com.global.GImageCapture"
+            android:label="@string/app_name" >
+            
+        </activity>
+         
+        <activity
+            android:name="com.global.GtagKeyword"
+            android:label="@string/app_name" >
+            
+        </activity>
+         
+        <activity
+            android:name="com.global.GNews"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.global.GVideo"
+            android:label="@string/app_name" >
+            
+        </activity>
+        
+        <activity
+            android:name="com.global.ClientList"
+            android:label="@string/app_name" >
+            
+        </activity>
+          <activity
+            android:name=".TextReader"
+            android:label="@string/app_name" >
+            
+        </activity>
+          <activity
+            android:name=".ImageReader"
+            android:label="@string/app_name" >
+            
+        </activity>
+          <activity
+            android:name=".VideoReader"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name=".VideoRecorder"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name=".SearchByLocation"
+            android:label="@string/app_name" >
+            
+        </activity>
+        
+        <activity
+            android:name=".CameraCapture"
+            android:label="@string/app_name" >
+            
+        </activity>
+        
+    </application>
+
+</manifest>

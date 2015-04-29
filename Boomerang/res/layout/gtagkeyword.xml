@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/boom" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:text="Keyword"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/gtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/gtag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/textView1"
+        android:text="Tag" />
+
+    <Button
+        android:id="@+id/gcancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/gtag"
+        android:layout_alignBottom="@+id/gtag"
+        android:layout_alignRight="@+id/gtext"
+        android:layout_marginRight="22dp"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/icbt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gtag"
+        android:layout_alignRight="@+id/gcancel"
+        android:layout_below="@+id/gcancel"
+        android:layout_marginTop="43dp"
+        android:text="Browse" />
+
+</RelativeLayout>
